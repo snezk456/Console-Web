@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Snezka</title>
+</head>
+
+<body>
+    <h1>Open Console</h1>
+    <script>
+        console.log("Hi, This is my first console project");
+
+        var first_name = "Snezka";
+        console.log(first_name);
+
+        var last_name = "Bane";
+        console.log(last_name);
+
+        var x = first_name.concat(last_name);
+        var full_name = x.concat(last_name);
+        console.log(full_name);
+
+        var length_of_full_name = full_name.length;
+        console.log(length_of_full_name);
+
+        var sentence = "I like to listen BTS songs";
+        console.log(sentence);
+        
+        var phrase = sentence.replace("BTS", "Blackpink");
+        console.log(phrase);
+
+        var Capitalize = "my name is snezka";
+        var C = Capitalize.toUpperCase();
+        console.log(C);
+
+        var Lower = "MY FULL NAME IS SNEZKA SIDHESH BANE";
+        var L = Lower.toLowerCase();
+        console.log(L);
+    </script>
+</body>
+
+</html>
